@@ -3,7 +3,7 @@
     <VWrapper>
       <VInput
           class="main-page__input"
-          v-model="search"
+          v-model.trim="search"
           placeholder="Поиск"
       />
 
